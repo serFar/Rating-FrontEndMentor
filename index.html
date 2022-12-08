@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,200;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+    <div class="container rate">
+        <div class="star">
+            <div class="icon">
+                <img src="images/icon-star.svg" alt="star">
+            </div>
+        </div>
+        <div class="title">
+            <h1>How did we do?</h1>
+        </div>
+        <div class="description">
+            Please let us know how we did with your support 
+            request. All feedback is appreciated to help us 
+            improve our offering!
+        </div>
+        <div class="rating">
+            <but class="rating--number icon" data-value="1">1</but>
+            <div class="rating--number icon" data-value="2">2</div>
+            <div class="rating--number icon" data-value="3">3</div>
+            <div class="rating--number icon" data-value="4">4</div>
+            <div class="rating--number icon" data-value="5">5</div>
+        </div>
+        <div class="submit active">
+            <div class="button">Submit</div>
+        </div>
+    </div>
+    <div class="container result">
+        <div class="illustration">
+            <img src="images/illustration-thank-you.svg" alt="illustration">
+        </div>
+        <div class="selection"></div>
+        <div class="title thanks">
+            <h1>Thank you!</h1>
+        </div>
+        <div class="description thanks">We appreciate you taking the time to give a rating. 
+            If you ever need more support, don’t hesitate to 
+            get in touch!
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

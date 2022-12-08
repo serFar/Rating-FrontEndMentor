@@ -1,0 +1,125 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.container {
+    max-width: 1140px;
+    align-self: center;
+    color: #fff;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.rate {
+    display: block;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 20%, 25%);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.description {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 320px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rating--number {
+    color: hsl(217, 12%, 63%);
+    margin-top: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.rating--number:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.result {
+    display: none;
+}
+
+.illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.selection--text {
+    background-color: hsl(213, 20%, 25%);
+    color: hsl(25, 97%, 53%);
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.thanks {
+    text-align: center;
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 300px;
+        padding: 20px;
+    }
+}
