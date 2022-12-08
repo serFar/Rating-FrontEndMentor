@@ -7,12 +7,13 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
-
+    flex-direction: column;
 }
 
 .container {
     max-width: 1140px;
     align-self: center;
+    margin-top: auto;
     color: #fff;
     background-color: hsl(213, 19%, 18%);
     padding: 30px;
@@ -115,6 +116,18 @@ body {
 
 .thanks {
     text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #FFF;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 375px) {
